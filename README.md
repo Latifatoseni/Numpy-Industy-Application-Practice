@@ -1,7 +1,6 @@
 # Numpy-Industy-Application-Practice
 
 Businesses, educational institutions, and manufacturing production lines generate diverse numerical data requiring rapid computation, statistical evaluation, and quality control monitoring. Using standard Python lists for these repetitive numerical operations often results in inefficient processing or unintended list concatenation rather than mathematical aggregation. To solve this, the NumPy library is utilized for high-speed, vectorized numerical computations across multiple operational scenarios
----
 
 # Objective
 * To develop a suite of NumPy-powered computational modules designed to:Calculate and project sales performance metrics and   percentage adjustments.
@@ -18,6 +17,7 @@ Businesses, educational institutions, and manufacturing production lines generat
 * Trigonometric Series Data: Angle evaluation at $30^\circ$ evaluated across series term ranges up to 99, 999, and 10,000     terms.
   
 *  Antiseptic Bottle Volumes: Liquid volume measurements from 20 production line bottles [502, 498, 505, 486, 509, 495,        501, 503, 478, 512, 499, 530, 528, 493, 497, 504, 515, 489, 533, 496] alongside a secondary test line dataset.
+  
 ---
 
 # Code
@@ -35,6 +35,7 @@ Businesses, educational institutions, and manufacturing production lines generat
 * Trigonometric Series: Series sums evaluated at term counts of 99, 999, and 10,000 yielded results of 2.5887, 3.7422, and    4.8938 respectively.
 * Quality Control: Mean = 503.65, Variance = 206.1342, Standard Deviation = 14.3574, UCL = 546.7221, LCL = 460.5779.
   Primary production line products were entirely in control, whereas the test secondary line showed 3 products in control     and 7 out of control.
+  
   ---
 
 # Interpretation
@@ -42,11 +43,12 @@ Businesses, educational institutions, and manufacturing production lines generat
 * **Student Scores:** Negative deviations indicate scores below the class mean, while positive deviations indicate scores     above average. Standard deviation highlights score dispersion, helping identify candidates for scholarships or academic     intervention.
 * **Trigonometric Series:** As the number of terms increases, the series sum continuously grows rather than converging to a   limit, displaying divergent behavior due to positive summation increments.
 * **Quality Control:** Control charts successfully isolate product volumes falling outside the acceptable specification       window (between 460.5779 and 546.7221 milliliters). The primary line operates optimally, whereas the secondary line         requires immediate line setup checks and recalibration
+  
 ---
 # Conclusion
 The NumPy-based analytical toolkit effectively processes multidimensional and vectorized numerical data across business finance, education, mathematical series evaluation, and manufacturing quality control. Utilizing NumPy arrays over native lists ensures high performance, accurate statistical aggregation, and robust threshold monitoring for operational decision-making
----
+
 # Author
-**Latifat Oseni**
+Latifat Oseni
 
 
